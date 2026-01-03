@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Add project root to Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from src.matching import rank_schools_for_student
 
 student = {
