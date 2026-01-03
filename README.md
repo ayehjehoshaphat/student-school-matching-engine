@@ -1,21 +1,32 @@
 # Student–School Matching Engine
 
-This project explores how AI-assisted decision-support systems can be used
-to match students with suitable international institutions under multiple
-constraints such as academic readiness, financial capacity, and preferences.
+A lightweight Python-based decision engine that ranks international universities for students
+based on academic profile, budget constraints, field of study, and country preference.
 
-## Motivation
-Access to global education often involves complex, high-stakes decisions.
-This project models student–institution matching as a scoring and ranking
-problem, with the goal of building transparent, explainable systems that
-support human judgment.
+This project demonstrates:
+- Rule-based scoring systems
+- Clean Python package structure
+- Modular, testable logic
+- Foundations for AI-assisted education decision-making
 
-## Current Approach
-- Rule-based scoring
-- Constraint-aware matching
-- Ranked recommendations
+## Features
+- GPA compatibility scoring
+- Budget feasibility checks
+- Field-of-study alignment
+- Country preference weighting
+- Ranked output with scores
 
-## Future Work
-- Machine learning–based probability estimation
-- Optimization under uncertainty
-- Human-in-the-loop feedback integration
+## Project Structure
+student-school-matching-engine/
+├── src/
+│   ├── __init__.py
+│   └── matching.py
+├── data/
+│   └── sample_data.json
+├── test_run.py
+└── README.md
+
+## Usage
+
+```bash
+python test_run.py
