@@ -1,0 +1,4 @@
+id,name,country,min_gpa,tuition,fields
+1,University of Toronto,Canada,3.2,14000,"Computer Science,Engineering"
+2,University of Manchester,UK,3.5,16000,"Computer Science,Data Science"
+3,Arizona State University,USA,3.0,18000,"Engineering,Data Science"
